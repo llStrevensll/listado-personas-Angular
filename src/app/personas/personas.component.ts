@@ -18,7 +18,14 @@ export class PersonasComponent implements OnInit {
   ){}
   
   ngOnInit(): void {
-    this.personas = this.personasService.personas;//inicializa el arreglo personas con el arreglo que esta en personasService 
+    //this.personas = this.personasService.personas;//inicializa el arreglo personas con el arreglo que esta en personasService 
+    this.personasService.obtenerPersonas()
+    .subscribe(
+      (personas: Persona[]) => {
+        this.personas = personas;//asignar al arreglo personas, las personas de la BD
+        this.personasService.setPersonas(personas);//actualizar arreglo 
+      }
+    );
   }
 
   agregar(){
