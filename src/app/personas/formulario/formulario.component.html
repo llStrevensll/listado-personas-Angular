@@ -1,0 +1,10 @@
+<div class="box">
+    <form class="item" #f="ngForm" (ngSubmit)="f.form.valid && onGuardarPersona()">
+        <!-- #f Local references, ngSubmit="fmform.valid"saber si es valida-->
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre" [(ngModel)]="nombreInput" required>
+        <input type="text" name="apellido" id="nombre" placeholder="Apellido" [(ngModel)]="apellidoInput" required>
+        <button type="submit" style="cursor: pointer">+</button>
+        <button *ngIf="index != null" type="submit" style="cursor: pointer" class="buttonRed" (click)="eliminarPersona()">-</button>
+        <!-- index1=null solo se mostrara el boton en modo edicion-->
+    </form>
+</div>
