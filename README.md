@@ -1,3 +1,11 @@
+- Property Binding, Event Binding, Two way binding
+- Componentes, Inyectar Servicios
+- Routing, Queryparams, ChildRoute, ErrorComponent
+- Peticion HTTP, Firebase
+- Crear, Modificar, Eliminar -> Registro de Personas
+- Autenticacion, Token, Guardianes
+
+
 # ListadoPersonas
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.2.
@@ -50,4 +58,12 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 <p align="center">
   <img src="https://github.com/llStrevensll/listado-personas-Angular/blob/master/images-git/listadopersonas6.PNG?raw=true" alt="listadopersonas6"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/llStrevensll/listado-personas-Angular/blob/master/images-git/listadopersonas7.PNG?raw=true" alt="listadopersonas7"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/llStrevensll/listado-personas-Angular/blob/master/images-git/listadopersonas8.PNG?raw=true" alt="listadopersonas8"/>
 </p>
