@@ -48,6 +48,10 @@ p {
     color: #00204a;
 }
 
+.centrado {
+    text-align: center;
+}
+
 form {
     text-align: center;
     margin-left: 20px;
