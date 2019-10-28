@@ -43,3 +43,11 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 <p align="center">
   <img src="https://github.com/llStrevensll/listado-personas-Angular/blob/master/images-git/listadopersonas4.PNG?raw=true" alt="listadopersonas4"/>
 </p>
+
+<p align="center">
+  <img src="https://github.com/llStrevensll/listado-personas-Angular/blob/master/images-git/listadopersonas5.PNG?raw=true" alt="listadopersonas5"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/llStrevensll/listado-personas-Angular/blob/master/images-git/listadopersonas6.PNG?raw=true" alt="listadopersonas6"/>
+</p>
